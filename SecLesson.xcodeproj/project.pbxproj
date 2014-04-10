@@ -19,6 +19,8 @@
 		B86E4C5218F6E4520020789B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86E4C3A18F6E4520020789B /* UIKit.framework */; };
 		B86E4C5A18F6E4520020789B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B86E4C5818F6E4520020789B /* InfoPlist.strings */; };
 		B86E4C5C18F6E4520020789B /* SecLessonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B86E4C5B18F6E4520020789B /* SecLessonTests.m */; };
+		B86E4C6818F6E5340020789B /* SLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B86E4C6618F6E5340020789B /* SLViewController.m */; };
+		B86E4C6918F6E5340020789B /* SLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B86E4C6718F6E5340020789B /* SLViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		B86E4C5718F6E4520020789B /* SecLessonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecLessonTests-Info.plist"; sourceTree = "<group>"; };
 		B86E4C5918F6E4520020789B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B86E4C5B18F6E4520020789B /* SecLessonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecLessonTests.m; sourceTree = "<group>"; };
+		B86E4C6518F6E5340020789B /* SLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLViewController.h; sourceTree = "<group>"; };
+		B86E4C6618F6E5340020789B /* SLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLViewController.m; sourceTree = "<group>"; };
+		B86E4C6718F6E5340020789B /* SLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				B86E4C4618F6E4520020789B /* SLAppDelegate.m */,
 				B86E4C4818F6E4520020789B /* Images.xcassets */,
 				B86E4C3D18F6E4520020789B /* Supporting Files */,
+				B86E4C6518F6E5340020789B /* SLViewController.h */,
+				B86E4C6618F6E5340020789B /* SLViewController.m */,
+				B86E4C6718F6E5340020789B /* SLViewController.xib */,
 			);
 			path = SecLesson;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B86E4C4118F6E4520020789B /* InfoPlist.strings in Resources */,
+				B86E4C6918F6E5340020789B /* SLViewController.xib in Resources */,
 				B86E4C4918F6E4520020789B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B86E4C4318F6E4520020789B /* main.m in Sources */,
+				B86E4C6818F6E5340020789B /* SLViewController.m in Sources */,
 				B86E4C4718F6E4520020789B /* SLAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
